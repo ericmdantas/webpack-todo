@@ -1,0 +1,22 @@
+{
+  "name": "webpack-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericmdantas/webpack-todo.git"
+  },
+  "author": "Eric Mendes Dantas <ericdantas0@gmail.com> (https://github.com/ericmdantas)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericmdantas/webpack-todo/issues"
+  },
+  "homepage": "https://github.com/ericmdantas/webpack-todo#readme",
+  "devDependencies": {
+    "webpack": "^1.13.1"
+  }
+}
