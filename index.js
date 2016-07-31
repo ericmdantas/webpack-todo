@@ -1,7 +1,8 @@
-console.log('1')
+import Vue from 'vue';
 
-import {info} from './1.js'
-
-info();
-
-console.log('2')
+new Vue({
+  el: '#app',
+  components: {
+    'todo': require('./todo.js')
+  }
+});
