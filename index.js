@@ -1,7 +1,7 @@
 console.log('1')
 
-require(['./1.js'], function(info) {
-  info();
-});
+import {info} from './1.js'
+
+info();
 
 console.log('2')

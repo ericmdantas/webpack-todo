@@ -1,5 +1,5 @@
-require('./1.css')
+import './1.css'
 
-module.exports = function() {
+export function info() {
   console.log('yo!')
 }
